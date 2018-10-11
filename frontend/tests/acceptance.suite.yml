@@ -1,0 +1,9 @@
+suite_namespace: frontend\tests\acceptance
+actor: AcceptanceTester
+modules:
+    enabled:
+        - PhpBrowser: 
+            url: docker.for.mac.localhost
+            #        - Helper\Acceptance
+        - Yii2:
+            part: init
